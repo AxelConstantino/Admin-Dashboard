@@ -208,7 +208,7 @@ a:hover{
     width: 10px;
     height: 100%;
     background-color: #075985;
-    border-radius: 10px 0  0px  10px;
+    border-radius: 15px 0  0px  15px;
 }
 
 .card-title{
@@ -221,6 +221,27 @@ a:hover{
     font-size: 14px;
     color: rgb(65, 65, 65);
     padding-top: 0;
+}
+
+
+.icon-container{
+    display: flex;
+    align-self: flex-end;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.icon-left{
+    margin-top: 17px;
+}
+
+.card-button{
+    background: none;
+    border: none;
+}
+
+.card-button:hover{
+    cursor: pointer;
 }
 
 #announcements{
